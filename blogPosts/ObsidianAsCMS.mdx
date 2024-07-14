@@ -1,0 +1,32 @@
+---
+title: How I'm using Obsidian as a CMS
+tags:
+  - tutorial
+date: 2024-07-11
+---
+# Obsidian as CMS goes crazy
+
+Using MDX remote to host my files elsewhere is already working great for me, and works perfectly if we're just talking about text. However, it gets a little more complicated with images.
+
+## Custom rehype plugin
+This is necessary because the src coming in of the image is in the format `file///User/.../image.png` which **sucks** because browsers don't know what that is. When we use images on web pages, we usually will have them in our public folder, so the format would be:
+```html
+<img src = "/image.png"></img>
+```
+What I did to solve this problem is to use ChatGPT to generate some code to make a basic rehype plugin because I have no idea wha that means, that looks at all the images the remote MDX parses, and change all of the images.
+
+```ts
+function rehypeChangeImgSrc() {
+  return (tree: any) => {
+    visit(tree, "element", (node) => {
+      if (node.tagName === "img" && node.properties && node.properties.src) {
+        const fileName = "/" + node.properties.src.split("/").pop();
+        node.properties.src = fileName;
+        node.properties.alt = fileName;
+      }
+    });
+  };
+}
+```
+
+This means that it is expecting there to be an image of the same name in the public folder of your project, but that works for me :) Especially because a lot of the time I am just dragging that photo from my public folder onto my Obsidian file.

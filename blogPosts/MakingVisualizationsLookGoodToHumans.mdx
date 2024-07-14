@@ -1,0 +1,68 @@
+---
+title: Making Visualizations look good to humans
+tags:
+  - music
+  - visualization
+  - emo
+  - tutorial
+date: 2024-07-11
+---
+
+# Intro
+
+In this post, I want to catalogue all of the different ways I have boiled down a lot of the DSP (Digital Signal Processing) strategies to getting info from a FFT (Fast Fourier Transform) or a waveform, and making it look like a visualization that human would look at and go "yea that looks like it is correlated with the music". A lot of the tutorials for visualizing data I read online did a good job visualizing the raw data into a graph, but what if I wanted to turn that data into instructions for how a shape should scale to the beat? What if I wanted to make someone nod their head to the beat of a drum? What if I am not analyzing a drum and bass song, but rather a midwest emo banger? Well this required quite a bit more nerd math, experimentation, and tuning of values specific to the song you're working with.
+
+# Basics
+
+## FFT data based, waveform data cringe
+
+## What if I don't want to loop over 22000 frequencies per frame
+
+Write about using frequency buckets here. finding averages, rms vs average
+
+## How I chose to abstract different parts of the visualizations
+
+1. Forests Analyzer
+2. Energy Analyzer
+3. ForestsCanvas
+4. React component
+## Writing good debug tools
+
+write about how adding debug text can set you up for success with the proper ranges
+## Now you're ready to animate!
+
+write about map range and how it is so necessary for visualizations
+
+
+```ts
+function mapRange(
+  value: number,
+  inMin: number,
+  inMax: number,
+  outMin: number,
+  outMax: number
+): number {
+  return ((value - inMin) * (outMax - outMin)) / (inMax - inMin) + outMin;
+}
+```
+
+write about mapping values here
+
+![alt](cat.jpeg)
+
+
+## Peak detection
+
+write about peak detection, z scores, moving averages
+
+## Be critical about what actually looks good
+
+## Bonus: my workflow from Photoshop to Canvas and how it kinda sucks but also kinda rules
+
+![](flameTall.png)
+
+## References
+
+[link 1](https://ciphrd.com/2019/09/01/audio-analysis-for-advanced-music-visualization-pt-1/)
+[link 2](https://tonejs.github.io/docs/15.0.4/classes/FFT.html)
+[link 3](https://tone-demos.glitch.me/)

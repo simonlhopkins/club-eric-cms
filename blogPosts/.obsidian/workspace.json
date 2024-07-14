@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "f457b65b3763eb5d",
+    "type": "split",
+    "children": [
+      {
+        "id": "b7bce6b3d420ac71",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95c72f4529436738",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MakingVisualizationsLookGoodToHumans.mdx",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "428e727aef8548ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Marietta.mdx",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2097ea4d382cdde2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Marietta.mdx",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3a408ebd5b7212a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "f0778895ba0e14dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d331b073e8f915f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "db078deea2ce8de7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6cb5a60ca683e8a3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "922236b3bc11cf05",
+    "type": "split",
+    "children": [
+      {
+        "id": "13bf115150228f4a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec6620070d309e34",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Marietta.mdx",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c484b1d5792bb0ff",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Marietta.mdx",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f5d7c9248efb814e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1a17e423439b3933",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Marietta.mdx"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "428e727aef8548ba",
+  "lastOpenFiles": [
+    "Forests.mdx",
+    "Destroy Beer for Straight Edge Supremacy ｜｜ ViralHog - ViralHog.mp4",
+    "IMG_4506.mov",
+    "MakingVisualizationsLookGoodToHumans.mdx",
+    "Marietta.mdx",
+    "NewSkateSpotDropped.mdx",
+    "NextJSTroubleshootingWoes.mdx",
+    "ObsidianAsCMS.mdx",
+    "TestForYears.mdx",
+    "TestingOutIfVideosWork.mdx",
+    "Game over - fred .fp.mp4",
+    "Untitled.md",
+    "ObsidianAsCMS.md",
+    "ObsidianAsCMS.mdx.md",
+    "center.png",
+    "cat 1.jpeg",
+    "flameTall.png",
+    "favicon-32x32 2.png",
+    "favicon-32x32 1.png",
+    "cat.jpeg",
+    "favicon-32x32.png",
+    "Making visualizations look good to humans.md"
+  ]
+}
