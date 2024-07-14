@@ -1,1 +1,4 @@
-{}
+{
+  "attachmentFolderPath": "./media",
+  "useMarkdownLinks": true
+}
